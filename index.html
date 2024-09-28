@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Football Performance and Engagement Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Football Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#live-updates">Live Updates</a></li>
+        <li><a href="#competitions">Competitions</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#social">Social Media</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Real-time Statistics Dashboard -->
+  <section id="dashboard">
+    <h2>Real-time Statistics Dashboard</h2>
+    <div id="stats">
+      <p>Goals: <span id="goals">0</span></p>
+      <p>Possession: <span id="possession">50%</span></p>
+      <p>Shots on Target: <span id="shots">0</span></p>
+    </div>
+    <button onclick="updateStats()">Simulate Stats</button>
+  </section>
+
+  <!-- AI-powered Analytics -->
+  <section id="analytics">
+    <h2>AI-powered Analytics</h2>
+    <p>Click the button below to analyze player performance</p>
+    <button onclick="analyzePerformance()">Analyze</button>
+    <div id="analysis-result"></div>
+  </section>
+
+  <!-- Interactive Live Updates -->
+  <section id="live-updates">
+    <h2>Interactive Live Updates</h2>
+    <div id="live-feed"></div>
+    <button onclick="startLiveUpdates()">Start Live Updates</button>
+  </section>
+
+  <!-- Competition Coverage -->
+  <section id="competitions">
+    <h2>Competitions</h2>
+    <ul>
+      <li>Indian Super League (ISL)</li>
+      <li>I-League</li>
+      <li>Khelo India Football</li>
+      <li>FIFA World Cup</li>
+    </ul>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop">
+    <h2>Football Shop</h2>
+    <div class="shop-item">
+      <img src="jersey.jpg" alt="Football Jersey">
+      <p><a href="https://www.adidas.co.in/men-football-jerseys">Buy Football Jersey</a></p>
+    </div>
+  </section>
+
+  <!-- Football-related News -->
+  <section id="news">
+    <h2>Football News</h2>
+    <article>
+      <h3>Indian Football on the Rise</h3>
+      <p>With the Indian Super League gaining popularity, Indian football is growing rapidly.</p>
+    </article>
+  </section>
+
+  <!-- Social Media Integration -->
+  <section id="social">
+    <h2>Social Media</h2>
+    <a href="https://twitter.com">Follow us on Twitter</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Football Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
